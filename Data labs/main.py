@@ -27,7 +27,5 @@ num_female_students = len(female_students)
 print("Number of Male Students:", num_male_students)
 print("Number of Female Students:", num_female_students)
 
-df.to_csv("student_emails.csv", index=False)
-df.to_csv("student_emails.tsv", sep='\t', index=False)
 
 
